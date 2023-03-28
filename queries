@@ -1,0 +1,4 @@
+
+SELECT position, COUNT(*) AS candidate_count FROM candidates GROUP BY position
+
+SELECT * FROM candidates ORDER BY position

@@ -1,0 +1,114 @@
+
+
+
+#header{
+
+    border-style: solid;
+    height: 40px;
+    background-color: rgb(72, 175, 56);
+    text-align: center;
+    border-color: black;
+    color: white;
+    text-transform: capitalize;
+}
+body{
+ background-color: azure;
+}
+
+#wrapper{
+ border: 2px; border-style: solid; height: 600px;
+}
+#navbar{
+ border: 2px; border-style: solid; height: 30px;   text-align: center;
+    padding-top: 10px; padding-left: 10px;
+    padding-bottom: 0px; 
+    background-color: rgb(252, 74, 9); 
+}
+#navbar a{
+ color: rgb(252, 251, 251);
+ text-decoration: wavy;
+ text-transform: capitalize;
+  /* letter-spacing: 2px; */
+ margin: 0 70px;
+}
+#container{
+ display: flex;
+ border: 2px; border-style: solid; height: 450px; 
+
+}
+#left{
+ 
+ border: 2px; border-style: solid; height: 450px; width: 20%; font-size: large; text-transform: capitalize;
+ background-color: black;
+}
+a{
+ color: rgb(248, 242, 242);
+ text-decoration: none;
+ text-transform: capitalize;
+ 
+}
+:hover .left a{
+ background-color: black;
+
+}
+#right{
+ border: 2px; border-style: solid; height: 450px; width: 80%;
+ float: right; display: flex; 
+}
+#right{
+ display: flex;
+}
+.box1{
+ border: 3px; border-style: solid; height: 50px; width: 250px; margin-left: 200px; margin-top: 100px; 
+text-align: center; text-transform: capitalize; font-size: large; color: rgb(31, 30, 30); border-color: black;
+background-color: bisque; 
+}
+.box2{
+ margin-left: 0px; margin: 0px; padding-top: 140px; padding-right: 100px; float: left; padding-top: 5px;
+ 
+}
+button{
+  background-color: rgb(113, 113, 247); border-radius: 4px;
+}
+#footer{
+ border: 2px; border-style: solid; height: 30px; width: 100%; background-color: rgba(8, 8, 8, 0.801);
+ float: right;
+}
+button:hover{
+ background-color: black;
+ color: blanchedalmond;
+}
+.box1:hover{
+ color: rgb(52, 52, 218);
+}
+a:hover{
+ /* font-size: 1.5em; */
+ color: rgb(52, 52, 218);
+
+}
+a:active{
+ /* font-size: 1.5em; */
+ 
+}
+#footer{
+ margin-right: 0px;
+ padding-top: 20px;
+ letter-spacing: 1px;
+ text-align: center;
+ color: blanchedalmond;
+ 
+}
+#footer a{
+ margin: 0 140px 
+}
+.error{
+	
+  color: #FF0000;
+      
+  }
+  
+
+
+
+
+
